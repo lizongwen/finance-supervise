@@ -1,8 +1,46 @@
+.m-t-10 {
+    margin-top: 10px;
+}
+.p-l-5 {
+    padding-left: 5px;
+}
+.p-r-5 {
+    padding-right: 5px;
+}
+.w-pct-50 {
+    width: 50%
+}
 .skin-bg-red {
     background: #f90751;
 }
 .skin-bg-yellow {
     background: #fda744;
+}
+.line-1px::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 100%;
+    height: 1px;
+    background: #000;
+}
+.panel-head {
+    position: relative;
+    padding: 15px 20px;
+    background: #1e2e46;
+}
+.panel-head .panel-title {
+    font-size: 20px;
+    color: #fff;
+}
+.panel-head .panel-title .icon-chart {
+    font-size: 22px;
+    color: #22c9df;
+}
+.panel-body {
+    padding: 15px 20px;
+    background: #1e2e46;
 }
 body {
     padding: 0 5%;
@@ -52,7 +90,7 @@ body {
 }
 .head .search-box .search-input {
     -webkit-appearance: none;
-    width: calc(100% - 110px);
+    width: calc(100% - 120px);
     height: 40px;
     line-height: 40px;
     padding: 10px 10px 10px 0;
@@ -74,6 +112,7 @@ body {
     height: 40px;
     padding: 8px;
     vertical-align: top;
+    background: #233653
 }
 .head .search-box .btn-search .icon-search {
     font-size: 20px;
@@ -82,6 +121,7 @@ body {
 .head .search-box .search-down {
     display: inline-block;
     width: 70px;
+    margin-left: 10px;
     font-size: 14px;
     cursor: pointer;
     color: #26c9dc;
@@ -98,14 +138,14 @@ body {
     display: block
 }
 .foot {
-    padding-bottom: 10px;
+    padding: 10px 0;
     text-align: center;
     color: #a3b4d5;
 }
 
 /* 数据展示 */
 
-.panel {
+.main-panel {
     height: 720px;
     margin-bottom: 10px;
 }
@@ -177,7 +217,6 @@ body {
 }
 .chart-table-wrapper {
     height: 600px;
-    margin-bottom: 15px;
     background: #1e2e46;
 }
 .panel .panel-right {
@@ -233,4 +272,57 @@ body {
     height: 30px;
     font-size: 30px;
     color: #f90751;
+}
+
+/* 监控页面 */
+
+.monitor .main .search-box .search-input {
+    float: left;
+    -webkit-appearance: none;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px 10px 10px 0;
+    background: #233653;
+    font-size: 14px;
+    text-indent: 12px;
+    vertical-align: top;
+    border: 0;
+    color: #4c6597;
+}
+.monitor .main .search-box .search-input:active,
+.monitor .main .search-box .search-input:focus {
+    border: none;
+    outline: 0
+}
+.monitor .main .search-box .btn-search {
+    float: left;
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    vertical-align: top;
+    background: #233653
+}
+.monitor .main .search-box .btn-search .icon-search {
+    font-size: 26px;
+    color: #fff;
+}
+.monitor .main .btn-add-monitor {
+    float: right;
+    padding: 8px 15px;
+    color: #22c9df;
+    border: 1px solid #22c9df;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.monitor .main .btn-add-monitor:hover {
+    color: #fff;
+    border-color: #fff;
+}
+
+/*  表格容器 */
+
+.table-wrapper {
+    min-height: 200px;
+    background: #1e2e46;
 }
