@@ -10,10 +10,11 @@ body {
 }
 .head {
     height: 70px;
+    overflow: hidden;
 }
 .head .logo-box {
     float: left;
-    margin-right: 50px;
+    margin-right: 20px;
     margin-top: 10px;
 }
 .head .nav {
@@ -35,7 +36,7 @@ body {
     height: 100%;
     padding: 0 10px;
     line-height: 70px;
-    font-size: 18px;
+    font-size: 16px;
     color: #c5d8ff;
     cursor: pointer;
 }
