@@ -1,0 +1,129 @@
+body {
+    padding: 0 120px;
+    background: #1b2636;
+}
+.head {
+    height: 70px;
+}
+.head .logo-box {
+    float: left;
+    height: 100%;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.head .nav {
+    float: left;
+    height: 100%
+}
+.head .nav .menu {
+    overflow: hidden;
+}
+.head .nav .menu>li {
+    float: left;
+    height: 100%;
+}
+.head .nav .menu>li:not(last-child) {
+    margin-right: 20px;
+}
+.head .nav .menu>li a {
+    display: block;
+    height: 100%;
+    padding: 0 10px;
+    line-height: 70px;
+    font-size: 18px;
+    color: #c5d8ff;
+    cursor: pointer;
+}
+.head .nav .menu>li a:hover {
+    color: #fff;
+}
+.head .search-box {
+    float: right;
+    position: relative;
+    margin-top: 20px;
+    font-size: 0;
+}
+.head .search-box .search-input {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px 10px 10px 0;
+    background: #233653;
+    font-size: 14px;
+    text-indent: 12px;
+    vertical-align: top;
+    border: 0;
+    color: #4c6597;
+}
+.head .search-box .search-input:active,
+.head .search-box .search-input:focus {
+    border: none;
+    outline: 0
+}
+.head .search-box .btn-search {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    vertical-align: top;
+}
+.head .search-box .btn-search .icon-search {
+    font-size: 20px;
+    color: #fff;
+}
+.head .search-box .search-down {
+    display: inline-block;
+    width: 70px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #26c9dc;
+}
+.head .search-box .search-down:hover {
+    color: #fff
+}
+.head .search-box .search-down .search-down-item {
+    display: none;
+    height: 100%;
+    line-height: 40px;
+}
+.head .search-box .search-down .search-down-item.active {
+    display: block
+}
+
+/* 数据展示 */
+
+.data-panel {
+    height: 720px;
+}
+.data-panel .left {
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+.data-panel .right {
+    float: right;
+    width: 29%;
+    height: 100%;
+    background: lightblue
+}
+.data-panel .left .data-view {
+    display: flex;
+    justify-content: space-between;
+}
+.data-panel .left .data-view .data-view-item {
+    width: 33%;
+    height: 100px;
+    padding-top: 30px;
+    text-align: center;
+}
+.data-panel .left .data-view .data-view-item:nth-of-type(1) {
+    background: #3780ea;
+}
+.data-panel .left .data-view .data-view-item:nth-of-type(2) {
+    background: #fda744;
+}
+.data-panel .left .data-view .data-view-item:nth-of-type(3) {
+    background: #ea366d;
+}
