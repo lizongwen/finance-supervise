@@ -1,3 +1,6 @@
+.skin-bg-red {
+    background: #f90751;
+}
 body {
     padding: 0 120px;
     background: #1b2636;
@@ -106,7 +109,6 @@ body {
     float: right;
     width: 29%;
     height: 100%;
-    background: lightblue
 }
 .panel .panel-left .data-view {
     display: flex;
@@ -189,9 +191,31 @@ body {
     font-size: 28px;
     color: #fff;
 }
-.panel .panel-right .trend .trend-list {}
+
+/* .panel .panel-right .trend .trend-list {} */
+
 .panel .panel-right .trend .trend-list .trend-list-item {
-    height: 90px;
+    position: relative;
+    height: 100px;
     padding: 15px 0;
+    font-size: 24px;
+    color: #c5d8ff;
     border-top: 1px solid #000;
+}
+.panel .panel-right .trend .trend-list .trend-list-item .num {
+    margin-right: 10px;
+}
+.panel .panel-right .trend .trend-list .trend-list-item .tip {
+    display: inline-block;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+.panel .panel-right .trend .trend-list .trend-list-item .iconfont {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30;
+    height: 30px;
+    font-size: 30px;
+    color: #f90751;
 }
