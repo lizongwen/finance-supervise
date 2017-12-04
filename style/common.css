@@ -95,7 +95,7 @@ body {
 
 .panel {
     height: 720px;
-    /* overflow: hidden */
+    margin-bottom: 15px;
 }
 .panel .panel-left {
     float: left;
@@ -111,6 +111,7 @@ body {
 .panel .panel-left .data-view {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 15px;
 }
 .panel .panel-left .data-view .data-view-item {
     width: 33%;
@@ -136,4 +137,11 @@ body {
 }
 .panel .panel-left .data-view .data-view-item .text {
     font-size: 16px;
+}
+.panel .panel-left .summary-chart {
+    height: calc(100% - 115px);
+}
+.chart-table-wrapper {
+    height: 600px;
+    background: #1e2e46;
 }
