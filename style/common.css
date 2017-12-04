@@ -1,6 +1,9 @@
 .m-t-10 {
     margin-top: 10px;
 }
+.m-b-10 {
+    margin-bottom: 10px;
+}
 .p-l-5 {
     padding-left: 5px;
 }
@@ -142,6 +145,10 @@ body {
     display: block
 }
 .foot {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     padding: 10px 0;
     text-align: center;
     color: #a3b4d5;
@@ -329,4 +336,73 @@ body {
 .table-wrapper {
     min-height: 200px;
     background: #1e2e46;
+}
+
+/* 图标容器 */
+
+.chart-wrapper {
+    min-height: 550px;
+    background: #1e2e46;
+}
+
+/* 企业分布 */
+
+.location .main .search-list-item {
+    float: left;
+    margin-right: 15px;
+}
+.location .main .select-btn {
+    padding: 3px 10px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    color: #fff;
+}
+.location .main .select-btn.active {
+    border: 1px solid #22c0d6;
+    color: #22c0d6;
+}
+.location .main .area-wrapper {
+    min-height: 200px;
+}
+.location .main .area-wrapper .area-head {
+    position: relative;
+    height: 50px;
+    padding-left: 20px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #fff;
+    background: #1e2e46;
+}
+.location .main .area-wrapper .area-head .more {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    color: #22c0d6;
+    cursor: pointer
+}
+.location .main .area-wrapper .area-head .more:hover {
+    color: #fff
+}
+.location .main .area-wrapper .area-head .count {
+    margin-left: 10px;
+}
+.location .main .area-wrapper .area-body {
+    padding: 20px;
+    background: #1e2e46;
+}
+.location .main .area-wrapper .area-body .company-list {
+    line-height: 40px;
+}
+.location .main .area-wrapper .area-body .company-list .company-list-item {
+    float: left;
+    margin-right: 15px;
+    color: #fff;
+}
+.location .main .area-wrapper .area-body .company-list .company-list-item .company-name {
+    color: #c5d8ff;
+}
+.location .main .area-wrapper .area-body .company-list .company-list-item .company-state {
+    margin-left: 10px;
+    padding: 3px 10px;
+    border-radius: 8px;
 }

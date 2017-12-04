@@ -198,6 +198,9 @@ dfn[title] {
     border-bottom: 1px dotted #000;
     cursor: help;
 }
+i {
+    font-style: normal;
+}
 
 /* tables still need cellspacing="0" in the markup */
 
