@@ -34,6 +34,10 @@
     font-size: 20px;
     color: #fff;
 }
+.panel-head .panel-title .small {
+    margin-left: 10px;
+    color: #454d6c
+}
 .panel-head .panel-title .icon-chart {
     font-size: 22px;
     color: #22c9df;
