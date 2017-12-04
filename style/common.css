@@ -96,6 +96,11 @@ body {
 .head .search-box .search-down .search-down-item.active {
     display: block
 }
+.foot {
+    padding-bottom: 10px;
+    text-align: center;
+    color: #a3b4d5;
+}
 
 /* 数据展示 */
 
@@ -106,11 +111,6 @@ body {
 .panel .panel-left {
     float: left;
     width: 70%;
-    height: 100%;
-}
-.panel .panel-right {
-    float: right;
-    width: 29%;
     height: 100%;
 }
 .panel .panel-left .data-view {
@@ -178,6 +178,12 @@ body {
     margin-bottom: 15px;
     background: #1e2e46;
 }
+.panel .panel-right {
+    float: right;
+    width: 29%;
+    height: 100%;
+    background: #1e2e46
+}
 .panel .panel-right .trend {
     margin: 20px;
 }
@@ -194,9 +200,6 @@ body {
     font-size: 28px;
     color: #fff;
 }
-
-/* .panel .panel-right .trend .trend-list {} */
-
 .panel .panel-right .trend .trend-list .trend-list-item {
     position: relative;
     height: 100px;
