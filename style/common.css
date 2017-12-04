@@ -7,7 +7,6 @@ body {
 }
 .head .logo-box {
     float: left;
-    height: 100%;
     margin-right: 50px;
     margin-top: 10px;
 }
@@ -94,36 +93,47 @@ body {
 
 /* 数据展示 */
 
-.data-panel {
+.panel {
     height: 720px;
+    /* overflow: hidden */
 }
-.data-panel .left {
+.panel .panel-left {
     float: left;
     width: 70%;
     height: 100%;
 }
-.data-panel .right {
+.panel .panel-right {
     float: right;
     width: 29%;
     height: 100%;
     background: lightblue
 }
-.data-panel .left .data-view {
+.panel .panel-left .data-view {
     display: flex;
     justify-content: space-between;
 }
-.data-panel .left .data-view .data-view-item {
+.panel .panel-left .data-view .data-view-item {
     width: 33%;
     height: 100px;
-    padding-top: 30px;
+    padding-top: 15px;
     text-align: center;
+    color: #fff
 }
-.data-panel .left .data-view .data-view-item:nth-of-type(1) {
-    background: #3780ea;
+.panel .panel-left .data-view .data-view-item:nth-of-type(1) {
+    background: #3780ea url(../img/company.png) no-repeat center right/auto 120%;
+    background-position: 104% -40%;
 }
-.data-panel .left .data-view .data-view-item:nth-of-type(2) {
-    background: #fda744;
+.panel .panel-left .data-view .data-view-item:nth-of-type(2) {
+    background: #fda744 url(../img/eye.png) no-repeat center right/auto 120%;
+    background-position: 110% -40%;
 }
-.data-panel .left .data-view .data-view-item:nth-of-type(3) {
-    background: #ea366d;
+.panel .panel-left .data-view .data-view-item:nth-of-type(3) {
+    background: #ea366d url(../img/note.png) no-repeat center right/auto 120%;
+    background-position: 110% -40%;
+}
+.panel .panel-left .data-view .data-view-item .count {
+    font-size: 30px;
+}
+.panel .panel-left .data-view .data-view-item .text {
+    font-size: 16px;
 }
