@@ -5,7 +5,7 @@
     background: #fda744;
 }
 body {
-    padding: 0 120px;
+    padding: 0 5%;
     background: #1b2636;
 }
 .head {
@@ -28,7 +28,7 @@ body {
     float: left;
     height: 100%;
 }
-.head .nav .menu>li:not(last-child) {
+.head .nav .menu>li:not(:last-child) {
     margin-right: 20px;
 }
 .head .nav .menu>li a {
@@ -44,15 +44,15 @@ body {
     color: #fff;
 }
 .head .search-box {
-    float: right;
+    float: left;
+    width: calc(100% - 960px);
     position: relative;
     margin-top: 20px;
     font-size: 0;
 }
 .head .search-box .search-input {
-    appearance: none;
     -webkit-appearance: none;
-    width: 300px;
+    width: calc(100% - 110px);
     height: 40px;
     line-height: 40px;
     padding: 10px 10px 10px 0;
@@ -107,17 +107,18 @@ body {
 
 .panel {
     height: 720px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .panel .panel-left {
     float: left;
-    width: 70%;
+    width: 75%;
     height: 100%;
+    padding-right: 10px;
 }
 .panel .panel-left .data-view {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .panel .panel-left .data-view .data-view-item {
     width: 33%;
@@ -147,7 +148,7 @@ body {
 .panel .panel-left .summary-chart {
     background: #fff;
     position: relative;
-    height: calc(100% - 115px);
+    height: calc(100% - 110px);
 }
 .panel .panel-left .summary-chart .list-view {
     position: absolute;
@@ -181,7 +182,7 @@ body {
 }
 .panel .panel-right {
     float: right;
-    width: 29%;
+    width: 25%;
     height: 100%;
     background: #1e2e46
 }
@@ -210,7 +211,11 @@ body {
     border-top: 1px solid #000;
 }
 .panel .panel-right .trend .trend-list .trend-list-item .name {
+    width: 80%;
     margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .panel .panel-right .trend .trend-list .trend-list-item .num {
     margin-right: 10px;
