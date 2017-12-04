@@ -1,6 +1,9 @@
 .skin-bg-red {
     background: #f90751;
 }
+.skin-bg-yellow {
+    background: #fda744;
+}
 body {
     padding: 0 120px;
     background: #1b2636;
@@ -198,9 +201,12 @@ body {
     position: relative;
     height: 100px;
     padding: 15px 0;
-    font-size: 24px;
+    font-size: 20px;
     color: #c5d8ff;
     border-top: 1px solid #000;
+}
+.panel .panel-right .trend .trend-list .trend-list-item .name {
+    margin-bottom: 10px;
 }
 .panel .panel-right .trend .trend-list .trend-list-item .num {
     margin-right: 10px;
@@ -212,9 +218,9 @@ body {
 }
 .panel .panel-right .trend .trend-list .trend-list-item .iconfont {
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 0;
-    width: 30;
+    width: 30px;
     height: 30px;
     font-size: 30px;
     color: #f90751;
