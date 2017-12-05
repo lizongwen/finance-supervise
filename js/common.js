@@ -2,7 +2,7 @@ $(function() {
     (function(w) {
         w.index = {
             init: function() {
-                $(".search-down").click(function() {
+                $("#search-down").click(function() {
                     $(this).toggleClass("show");
                 })
                 $(".search-down-item").click(function() {
