@@ -55,7 +55,6 @@ body {
 }
 .head {
     height: 70px;
-    overflow: hidden;
 }
 .head .logo-box {
     float: left;
@@ -126,6 +125,7 @@ body {
     color: #fff;
 }
 .head .search-box .search-down {
+    position: absolute;
     display: inline-block;
     width: 70px;
     margin-left: 10px;
@@ -141,8 +141,20 @@ body {
     height: 100%;
     line-height: 40px;
 }
+.head .search-box .search-down.show .search-down-item {
+    display: block
+}
 .head .search-box .search-down .search-down-item.active {
     display: block
+}
+.head .search-box .search-down .icon-moreunfold {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.head .search-box .search-down.show .icon-moreunfold {
+    top: 8px;
+    transform: rotate(180deg);
 }
 .foot {
     position: fixed;
