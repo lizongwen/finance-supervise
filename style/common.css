@@ -274,7 +274,8 @@ body {
     color: #fff;
 }
 .panel .panel-right .trend .trend-list {
-    height: calc(100% - 65px)
+    height: calc(100% - 65px);
+    overflow: hidden;
 }
 .panel .panel-right .trend .trend-list .trend-list-item {
     position: relative;
