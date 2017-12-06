@@ -217,7 +217,7 @@ body {
 }
 .panel .panel-left .summary-chart .mapBar-wrapper .mapBar {
     width: 100%;
-    height: 100%;
+    height: 590px;
     border: 0px solid #ccc;
     padding: 10px;
 }
