@@ -4,11 +4,17 @@
 .m-b-10 {
     margin-bottom: 10px;
 }
+.m-b-20{
+	margin-bottom: 20px!important;
+}
 .p-l-5 {
     padding-left: 5px;
 }
 .p-r-5 {
     padding-right: 5px;
+}
+.p-r-10 {
+    padding-right: 10px;
 }
 .w-pct-50 {
     width: 50%
@@ -258,51 +264,50 @@ body {
     height: 100%;
     background: #1e2e46
 }
-.panel .panel-right .trend {
+.trend {
     height: 700px;
     margin: 10px 20px;
 }
-.panel .panel-right .trend .trend-top {
+.trend .trend-top {
     margin-bottom: 10px;
 }
-.panel .panel-right .trend .trend-top .icon-2 {
+.trend .trend-top .icon-2 {
     font-size: 38px;
     color: #22c9df;
     vertical-align: -5px;
 }
-.panel .panel-right .trend .trend-top .title {
+.trend .trend-top .title {
     margin-left: 10px;
     font-size: 28px;
     color: #fff;
 }
-.panel .panel-right .trend .trend-list {
+.trend .trend-list {
     height: calc(100% - 65px);
     overflow: hidden;
 }
-.panel .panel-right .trend .trend-list .trend-list-item {
+.trend .trend-list .trend-list-item {
     position: relative;
-    height: 92px;
-    padding: 5px 0;
+    padding: 12px 0;
     font-size: 20px;
     color: #c5d8ff;
     border-top: 1px solid #000;
 }
-.panel .panel-right .trend .trend-list .trend-list-item .name {
+.trend .trend-list .trend-list-item .name {
     width: 80%;
     margin-bottom: 10px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.panel .panel-right .trend .trend-list .trend-list-item .num {
+.trend .trend-list .trend-list-item .num {
     margin-right: 10px;
 }
-.panel .panel-right .trend .trend-list .trend-list-item .tip {
+.trend .trend-list .trend-list-item .tip {
     display: inline-block;
     padding: 0 10px;
     border-radius: 10px;
 }
-.panel .panel-right .trend .trend-list .trend-list-item .iconfont {
+.trend .trend-list .trend-list-item .iconfont {
     position: absolute;
     top: 10px;
     right: 0;
@@ -441,7 +446,6 @@ body {
 .tabs>div{
     display: none;
     clear: both;
-    min-height: 500px;
 }
 .tabs .horizontal{
 	position: relative;
@@ -465,4 +469,51 @@ body {
 }
 .tabs .horizontal li.selectActive{
     color: white;
+}
+
+
+/* 舆情管理 */
+.left-wrapper{
+	width:70%;
+}
+.right-wrapper{
+	width:30%;
+	background: #1e2e46
+}
+.left-wrapper .list-warpper{
+	padding: 0 10px 10px 10px;
+	background: #1e2e46;
+}
+.left-wrapper .list-warpper .list-item{
+	padding:10px;
+	background:#243650;
+	color:#fff
+}
+.left-wrapper .list-warpper .list-item .title{
+	margin-bottom:10px;
+}
+.left-wrapper .list-warpper .list-item:not(:last-child){
+	margin-bottom:15px
+}
+.left-wrapper .list-warpper .list-item .addr-label{
+	color:#434c6a
+}
+
+/* 分页 */
+.simple-pagination{
+	background: #1e2e46;
+}
+.light-theme a,.light-theme span{
+	border:none;
+	background: transparent;
+	color:#fff;
+}
+.light-theme .current{
+	background: transparent;
+    color: #FFF;
+}
+.light-theme a:hover {
+	text-decoration: none;
+	color:#1e2e46;
+    background: #fff;
 }
