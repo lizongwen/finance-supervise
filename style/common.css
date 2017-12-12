@@ -51,7 +51,8 @@
 }
 body {
     padding: 0 35px;
-    background: #1b2636;
+	background: #1b2636;
+	color:#454d6c
 }
 .head {
     height: 70px;
@@ -433,4 +434,34 @@ body {
     margin-left: 10px;
     padding: 3px 10px;
     border-radius: 8px;
+}
+
+/* tab */
+.tabs>div{
+    display: none;
+    clear: both;
+    min-height: 500px;
+}
+.tabs .horizontal{
+	position: relative;
+    margin: 0px;
+	padding: 0px;
+	background: #1e2e46;
+}
+.tabs .horizontal li{
+    float: left;
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    width:150px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+.tabs .horizontal li:not(:first-child){
+    margin-left: 5px;
+}
+
+.tabs .horizontal li.selectActive{
+    color: white;
 }
