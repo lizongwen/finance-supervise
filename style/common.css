@@ -463,7 +463,6 @@ body {
 .tabs .horizontal li:not(:first-child){
     margin-left: 15px;
 }
-
 .tabs .horizontal li.selectActive{
     color: white;
 }
