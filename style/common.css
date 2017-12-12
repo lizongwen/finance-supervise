@@ -25,7 +25,8 @@
     left: 0;
     right: 0;
     top: 100%;
-    height: 1px;
+	height: 1px;
+	width: 100%;
     background: #000;
 }
 .panel-head {
@@ -446,6 +447,7 @@ body {
 	position: relative;
     margin: 0px;
 	padding: 0px;
+	height: 50px;
 	background: #1e2e46;
 }
 .tabs .horizontal li{
