@@ -608,3 +608,12 @@ body {
 	font-size: 20px;
 }
 
+.company-detail .tabs>div{
+	padding: 15px 20px;
+	min-height:300px;
+	background: #1e2e46;
+}
+.company-detail .tabs>div .content{
+	min-height: 280px;
+	background: #243650;
+}

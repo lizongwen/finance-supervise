@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>监控设置</title>
+	<link rel="stylesheet" type="text/css" href="../js/plugins/simplePagination/simplePagination.css" />
+	<link rel="stylesheet" href="../style/reset.css">
+	<link rel="stylesheet" href="../fonts/iconfont.css">
+	<link rel="stylesheet" href="../style/common.css">
+</head>
+
+<body class="">
+	<div class="head clearfix">
+		<div class="logo-box">
+			<img src="../img/logo.png" alt="">
+		</div>
+		<div class="nav">
+			<ul class="menu">
+				<li>
+					<a href="../index.html">总览</a>
+				</li>
+				<li>
+					<a href="data.html">数据分析</a>
+				</li>
+				<li>
+					<a href="keyword.html">特征词</a>
+				</li>
+				<li>
+					<a href="location.html">企业分布</a>
+				</li>
+				<li>
+					<a href="monitor.html">监控设置</a>
+				</li>
+				<li>
+					<a href="ali_sentiment_list.html">舆情管理</a>
+				</li>
+			</ul>
+		</div>
+		<div class="search-box">
+			<input class="search-input" type="text" placeholder="请输入企业名称">
+			<a href="javascript:;" class="btn-search">
+				<i class="iconfont icon-search"></i>
+			</a>
+			<a class="search-down" id="search-down">
+				<div class="search-down-item active">用户名</div>
+				<div class="search-down-item">公司名</div>
+				<i class="iconfont icon-moreunfold"></i>
+			</a>
+		</div>
+	</div>
+	<div class="main company-detail">
+		<div class="company-item">
+			<div class="right-wrapper">
+				<div class="score-wrapper border-red">
+					<div class="score-value">84</div>
+					<div class="desc">项目风险指数</div>
+				</div>
+			</div>
+			<div class="left-wrapper">
+				<dl>
+					<dd class="top line-1px">
+						<span class="company-name">这是企业名称</span>
+                    	<span class="company-state skin-bg-red">高风险</span>
+					</dd>
+					<dd class="middle line-1px">
+						<ul class="clearfix">
+							<li class="target-item">
+								<span>合规性指数：</span>
+								<span class="score-color">43分</span>
+							</li>
+							<li class="target-item">
+								<span>特征性指数：</span>
+								<span class="score-color">43分</span>
+							</li>
+							<li class="target-item">
+								<span>偏离指数：</span>
+								<span class="score-color">43分</span>
+							</li>
+							<li class="target-item">
+								<span>传播力指数：</span>
+								<span class="score-color">43分</span>
+							</li>
+							<li class="target-item">
+								<span>投诉率指数：</span>
+								<span class="score-color">43分</span>
+							</li>
+						</ul>
+					</dd>
+					<dd class="bottom"></dd>
+				</dl>
+			</div>
+		</div>
+		<div class='tabs' id="tabs">
+			<ul class='horizontal clearfix line-1px'>
+				<li rel="tab-1">
+					<div class="panel-title" class="selectActive">
+						预警中心
+					</div>
+				</li>
+				<li rel="tab-2">
+					<div class="panel-title">
+						工商信息
+					</div>
+				</li>
+				<li rel="tab-3">
+					<div class="panel-title">
+						企业族谱
+					</div>
+				</li>
+				<li rel="tab-4">
+					<div class="panel-title">
+						事件分析
+					</div>
+				</li>
+				<li rel="tab-5">
+					<div class="panel-title">
+						物联网监控
+					</div>
+				</li>
+				<li rel="tab-6">
+					<div class="panel-title">
+						运营数据
+					</div>
+				</li>
+			</ul>
+			<div rel='tab-1' class="clearfix">
+				<div class="content">
+					1
+				</div>
+			</div>
+			<div rel='tab-2'>
+				<div class="content">
+					2
+				</div>
+			</div>
+			<div rel='tab-3'>
+				<div class="content">
+					3
+				</div>
+			</div>
+			<div rel='tab-4'>
+				<div class="content">
+					4
+				</div>
+			</div>
+			<div rel='tab-5'>
+				<div class="content">
+					5
+				</div>
+			</div>
+			<div rel='tab-6'>
+				<div class="content">
+					6
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="foot">
+		技术支持：惠国征信服务股份有限公司
+	</div>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script src="../js/tab.js"></script>
+	<script src="../js/common.js"></script>
+	<script>
+		tabs_takes.init("tabs")
+	</script>
+</body>
+
+</html>
