@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>监控设置</title>
+	<link rel="stylesheet" type="text/css" href="../js/plugins/simplePagination/simplePagination.css" />
+	<link rel="stylesheet" href="../style/reset.css">
+	<link rel="stylesheet" href="../fonts/iconfont.css">
+	<link rel="stylesheet" href="../style/common.css">
+</head>
+
+<body class="">
+	<div class="head clearfix">
+		<div class="logo-box">
+			<img src="../img/logo.png" alt="">
+		</div>
+		<div class="nav">
+			<ul class="menu">
+				<li>
+					<a href="../index.html">总览</a>
+				</li>
+				<li>
+					<a href="data.html">数据分析</a>
+				</li>
+				<li>
+					<a href="keyword.html">特征词</a>
+				</li>
+				<li>
+					<a href="location.html">企业分布</a>
+				</li>
+				<li>
+					<a href="monitor.html">监控设置</a>
+				</li>
+				<li>
+					<a href="ali_sentiment_list.html">舆情管理</a>
+				</li>
+			</ul>
+		</div>
+		<div class="search-box">
+			<input class="search-input" type="text" placeholder="请输入企业名称">
+			<a href="javascript:;" class="btn-search">
+				<i class="iconfont icon-search"></i>
+			</a>
+			<a class="search-down" id="search-down">
+				<div class="search-down-item active">用户名</div>
+				<div class="search-down-item">公司名</div>
+				<i class="iconfont icon-moreunfold"></i>
+			</a>
+		</div>
+	</div>
+	<div class="main">
+		<div class="clearfix m-b-20 company-list-top">
+			<div class="pull-left text">
+				<span class="m-l-10">全部</span>
+				<span>(82)</span>
+			</div>
+			<div class="pagination pull-right" id="pagination"></div>
+		</div>
+		<ul class="company-list-ul">
+			<li class="company-item">
+				<div class="right-wrapper">
+					<div class="score-wrapper border-red">
+						<div class="score-value">84</div>
+						<div class="desc">项目风险指数</div>
+					</div>
+				</div>
+				<div class="left-wrapper">
+					<dl>
+						<dd class="top line-1px">
+							<span class="company-name">某某某某公司某某某某公司</span>
+                        	<span class="company-state skin-bg-red">高风险</span>
+						</dd>
+						<dd class="middle line-1px">
+							<ul class="clearfix">
+								<li class="target-item">
+									<span>合规性指数：</span>
+									<span class="score-color">43分</span>
+								</li>
+								<li class="target-item">
+									<span>特征性指数：</span>
+									<span class="score-color">43分</span>
+								</li>
+								<li class="target-item">
+									<span>偏离指数：</span>
+									<span class="score-color">43分</span>
+								</li>
+								<li class="target-item">
+									<span>传播力指数：</span>
+									<span class="score-color">43分</span>
+								</li>
+								<li class="target-item">
+									<span>投诉率指数：</span>
+									<span class="score-color">43分</span>
+								</li>
+							</ul>
+						</dd>
+						<dd class="bottom"></dd>
+					</dl>
+				</div>
+			</li>
+			<li class="company-item">
+				<div class="right-wrapper">
+					<div class="score-wrapper border-yellow">
+						<div class="score-value">84</div>
+						<div class="desc">项目风险指数</div>
+					</div>
+				</div>
+				<div class="left-wrapper">
+					<dl>
+						<dd class="top line-1px">
+							<span class="company-name">某某某某公司某某某某公司</span>
+                        	<span class="company-state skin-bg-yellow">高风险</span>
+						</dd>
+						<dd class="middle line-1px">
+							<ul class="clearfix">
+								<li class="target-item">
+									<span>合规性指数：</span>
+									<span class="score-color">43分</span>
+								</li>
+								<li class="target-item">
+									<span>特征性指数：</span>
+									<span class="score-color">43分</span>
+								</li>
+								<li class="target-item">
+									<span>偏离指数：</span>
+									<span class="score-color">43分</span>
+								</li>
+								<li class="target-item">
+									<span>传播力指数：</span>
+									<span class="score-color">43分</span>
+								</li>
+								<li class="target-item">
+									<span>投诉率指数：</span>
+									<span class="score-color">43分</span>
+								</li>
+							</ul>
+						</dd>
+						<dd class="bottom"></dd>
+					</dl>
+				</div>
+			</li>
+			<li class="company-item">
+				<div class="right-wrapper">
+					<div class="score-wrapper border-green">
+						<div class="score-value">84</div>
+						<div class="desc">项目风险指数</div>
+					</div>
+				</div>
+				<div class="left-wrapper">
+					<dl>
+						<dd class="top line-1px">
+							<span class="company-name">某某某某公司某某某某公司</span>
+                        	<span class="company-state skin-bg-green">高风险</span>
+						</dd>
+						<dd class="middle line-1px">
+							<ul class="clearfix">
+								<li class="target-item">
+									<span>合规性指数：</span>
+									<span class="score-color">43分</span>
+								</li>
+								<li class="target-item">
+									<span>特征性指数：</span>
+									<span class="score-color">43分</span>
+								</li>
+								<li class="target-item">
+									<span>偏离指数：</span>
+									<span class="score-color">43分</span>
+								</li>
+								<li class="target-item">
+									<span>传播力指数：</span>
+									<span class="score-color">43分</span>
+								</li>
+								<li class="target-item">
+									<span>投诉率指数：</span>
+									<span class="score-color">43分</span>
+								</li>
+							</ul>
+						</dd>
+						<dd class="bottom"></dd>
+					</dl>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="foot">
+		技术支持：惠国征信服务股份有限公司
+	</div>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script src="../js/plugins/simplePagination/jquery.simplePagination.js"></script>
+	<script src="../js/tab.js"></script>
+	<script src="../js/common.js"></script>
+	<script>
+		tabs_takes.init("tabs")
+		$("#pagination").pagination({
+			items: 100,
+			itemsOnPage: 10,
+			cssStyle: 'light-theme',
+			displayedPages: 1,
+			prevText: "上一页",
+			nextText: "下一页",
+			edges: 0,
+			onPageClick: loadNews
+		});
+		function loadNews(index) {
+			console.log(index)//index为页码
+		}
+	</script>
+</body>
+
+</html>

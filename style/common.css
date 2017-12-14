@@ -1,519 +1,610 @@
 .m-t-10 {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 .m-b-10 {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
-.m-b-20{
+.m-b-20 {
 	margin-bottom: 20px!important;
 }
+.m-l-10 {
+	margin-left: 10px;
+}
 .p-l-5 {
-    padding-left: 5px;
+	padding-left: 5px;
 }
 .p-r-5 {
-    padding-right: 5px;
+	padding-right: 5px;
 }
 .p-r-10 {
-    padding-right: 10px;
+	padding-right: 10px;
 }
 .w-pct-50 {
-    width: 50%
+	width: 50%
 }
 .skin-bg-red {
-    background: #f90751;
+	background: #f90751;
 }
 .skin-bg-yellow {
-    background: #fda744;
+	background: #fda744;
+}
+.skin-bg-green {
+	background: #19bc6a;
+}
+.border-red{
+	border-color:#f90751;
+}
+.border-yellow{
+	border-color:#fda744;
+}
+.border-green{
+	border-color:#19bc6a;
 }
 .line-1px::after {
-    position: absolute;
-    content: "";
-    left: 0;
-    right: 0;
-    top: 100%;
+	position: absolute;
+	z-index: 1;
+	content: "";
+	left: 0;
+	right: 0;
+	top: 100%;
 	height: 1px;
 	width: 100%;
-    background: #000;
+	background: #000;
 }
 .panel-head {
-    position: relative;
-    padding: 15px 20px;
-    background: #1e2e46;
+	position: relative;
+	padding: 15px 20px;
+	background: #1e2e46;
 }
 .panel-head .panel-title {
-    font-size: 20px;
-    color: #fff;
+	font-size: 20px;
+	color: #fff;
 }
 .panel-head .panel-title .small {
-    margin-left: 10px;
-    color: #454d6c
+	margin-left: 10px;
+	color: #454d6c
 }
 .panel-head .panel-title .icon-chart {
-    font-size: 22px;
-    color: #22c9df;
+	font-size: 22px;
+	color: #22c9df;
 }
 .panel-body {
-    padding: 15px 20px;
-    background: #1e2e46;
+	padding: 15px 20px;
+	background: #1e2e46;
 }
 body {
-    padding: 0 35px;
+	padding: 0 35px;
 	background: #1b2636;
-	color:#454d6c
+	color: #454d6c
 }
 .head {
-    height: 70px;
+	height: 70px;
 }
 .head .logo-box {
-    float: left;
-    margin-top: 10px;
-    margin-right: 15px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 15px;
 }
 .head .nav {
-    float: left;
-    height: 100%
+	float: left;
+	height: 100%
 }
 .head .nav .menu {
-    overflow: hidden;
+	overflow: hidden;
 }
 .head .nav .menu>li {
-    float: left;
-    height: 100%;
+	float: left;
+	height: 100%;
 }
 .head .nav .menu>li {
-    margin-right: 15px;
+	margin-right: 15px;
 }
 .head .nav .menu>li a {
-    display: block;
-    height: 100%;
-    padding: 0 10px;
-    line-height: 70px;
-    font-size: 16px;
-    color: #c5d8ff;
-    cursor: pointer;
+	display: block;
+	height: 100%;
+	padding: 0 10px;
+	line-height: 70px;
+	font-size: 16px;
+	color: #c5d8ff;
+	cursor: pointer;
 }
 .head .nav .menu>li a:hover {
-    color: #fff;
+	color: #fff;
 }
 .head .search-box {
-    float: left;
-    width: calc(100% - 944px);
-    position: relative;
-    margin-top: 16px;
-    font-size: 0;
+	float: left;
+	width: calc(100% - 944px);
+	position: relative;
+	margin-top: 16px;
+	font-size: 0;
 }
 .head .search-box .search-input {
-    -webkit-appearance: none;
-    width: calc(100% - 120px);
-    height: 40px;
-    line-height: 40px;
-    padding: 10px 10px 10px 0;
-    background: #233653;
-    font-size: 14px;
-    text-indent: 12px;
-    vertical-align: top;
-    border: 0;
-    color: #4c6597;
+	-webkit-appearance: none;
+	width: calc(100% - 120px);
+	height: 40px;
+	line-height: 40px;
+	padding: 10px 10px 10px 0;
+	background: #233653;
+	font-size: 14px;
+	text-indent: 12px;
+	vertical-align: top;
+	border: 0;
+	color: #4c6597;
 }
-.head .search-box .search-input:active,
-.head .search-box .search-input:focus {
-    border: none;
-    outline: 0
+.head .search-box .search-input:active, .head .search-box .search-input:focus {
+	border: none;
+	outline: 0
 }
 .head .search-box .btn-search {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    padding: 8px;
-    vertical-align: top;
-    background: #233653
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	padding: 8px;
+	vertical-align: top;
+	background: #233653
 }
 .head .search-box .btn-search .icon-search {
-    font-size: 20px;
-    color: #fff;
+	font-size: 20px;
+	color: #fff;
 }
 .head .search-box .search-down {
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: inline-block;
-    width: 70px;
-    margin-left: 10px;
-    font-size: 14px;
-    cursor: pointer;
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: inline-block;
+	width: 70px;
+	margin-left: 10px;
+	font-size: 14px;
+	cursor: pointer;
 }
 .head .search-box .search-down .search-down-item {
-    display: none;
-    height: 100%;
-    line-height: 40px;
-    color: #26c9dc
+	display: none;
+	height: 100%;
+	line-height: 40px;
+	color: #26c9dc
 }
 .head .search-box .search-down.show .search-down-item {
-    display: block
+	display: block
 }
 .head .search-box .search-down .search-down-item.active {
-    display: block
+	display: block
 }
 .head .search-box .search-down .icon-moreunfold {
-    position: absolute;
-    top: 10px;
-    right: 0;
-    color: #26c9dc
+	position: absolute;
+	top: 10px;
+	right: 0;
+	color: #26c9dc
 }
 .head .search-box .search-down.show .icon-moreunfold {
-    top: 8px;
-    transform: rotate(180deg);
+	top: 8px;
+	transform: rotate(180deg);
 }
 .foot {
-    padding: 10px 0;
-    text-align: center;
-    color: #a3b4d5;
+	padding: 10px 0;
+	text-align: center;
+	color: #a3b4d5;
 }
 
 /* 数据展示 */
 
 .main {
-    width: 100%;
+	width: 100%;
 }
 .main-panel {
-    height: 720px;
-    margin-bottom: 10px;
+	height: 720px;
+	margin-bottom: 10px;
 }
 .panel .panel-left {
-    float: left;
-    width: 75%;
-    height: 100%;
-    padding-right: 10px;
+	float: left;
+	width: 75%;
+	height: 100%;
+	padding-right: 10px;
 }
 .panel .panel-left .data-view {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
 }
 .panel .panel-left .data-view .data-view-item {
-    width: 33%;
-    height: 100px;
-    padding-top: 15px;
-    text-align: center;
-    color: #fff
+	width: 33%;
+	height: 100px;
+	padding-top: 15px;
+	text-align: center;
+	color: #fff
 }
 .panel .panel-left .data-view .data-view-item:nth-of-type(1) {
-    background: #3780ea url(../img/company.png) no-repeat center right/auto 120%;
-    background-position: 104% -40%;
+	background: #3780ea url(../img/company.png) no-repeat center right/auto 120%;
+	background-position: 104% -40%;
 }
 .panel .panel-left .data-view .data-view-item:nth-of-type(2) {
-    background: #fda744 url(../img/eye.png) no-repeat center right/auto 120%;
-    background-position: 110% -40%;
+	background: #fda744 url(../img/eye.png) no-repeat center right/auto 120%;
+	background-position: 110% -40%;
 }
 .panel .panel-left .data-view .data-view-item:nth-of-type(3) {
-    background: #ea366d url(../img/note.png) no-repeat center right/auto 120%;
-    background-position: 110% -40%;
+	background: #ea366d url(../img/note.png) no-repeat center right/auto 120%;
+	background-position: 110% -40%;
 }
 .panel .panel-left .data-view .data-view-item .count {
-    font-size: 30px;
+	font-size: 30px;
 }
 .panel .panel-left .data-view .data-view-item .text {
-    font-size: 16px;
+	font-size: 16px;
 }
 .panel .panel-left .summary-chart {
-    position: relative;
-    height: calc(100% - 110px);
+	position: relative;
+	height: calc(100% - 110px);
 }
 .panel .panel-left .summary-chart .mapBar-wrapper {
-    height: 100%;
-    margin-right: 320px;
+	height: 100%;
+	margin-right: 320px;
 }
 .panel .panel-left .summary-chart .mapBar-wrapper .mapBar {
-    width: 100%;
-    height: 590px;
-    border: 0px solid #ccc;
-    padding: 10px;
+	width: 100%;
+	height: 590px;
+	border: 0px solid #ccc;
+	padding: 10px;
 }
 .panel .panel-left .summary-chart .list-view {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 300px;
-    height: 560px;
-    padding: 30px;
-    background: #243650;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 300px;
+	height: 560px;
+	padding: 30px;
+	background: #243650;
 }
 .panel .panel-left .summary-chart .list-view .city-list {
-    height: 100%;
-    overflow: hidden;
+	height: 100%;
+	overflow: hidden;
 }
 .panel .panel-left .summary-chart .list-view .city-list .city-list-item {
-    height: 50px;
-    line-height: 50px;
-    font-size: 18px;
-    color: #c5d8ff
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	color: #c5d8ff
 }
 .panel .panel-left .summary-chart .list-view .city-list .city-list-item .city-name {
-    float: left;
+	float: left;
 }
 .panel .panel-left .summary-chart .list-view .city-list .city-list-item .count {
-    float: right;
+	float: right;
 }
 .chart-table-wrapper {
-    height: 600px;
-    background: #1e2e46;
+	height: 600px;
+	background: #1e2e46;
 }
 .panel .panel-right {
-    float: right;
-    width: 25%;
-    height: 100%;
-    background: #1e2e46
+	float: right;
+	width: 25%;
+	height: 100%;
+	background: #1e2e46
 }
 .trend {
-    height: 700px;
-    margin: 10px 20px;
+	height: 700px;
+	margin: 10px 20px;
 }
 .trend .trend-top {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 .trend .trend-top .icon-2 {
-    font-size: 38px;
-    color: #22c9df;
-    vertical-align: -5px;
+	font-size: 38px;
+	color: #22c9df;
+	vertical-align: -5px;
 }
 .trend .trend-top .title {
-    margin-left: 10px;
-    font-size: 28px;
-    color: #fff;
+	margin-left: 10px;
+	font-size: 28px;
+	color: #fff;
 }
 .trend .trend-list {
-    height: calc(100% - 65px);
-    overflow: hidden;
+	height: calc(100% - 65px);
+	overflow: hidden;
 }
 .trend .trend-list .trend-list-item {
-    position: relative;
-    padding: 12px 0;
-    font-size: 20px;
-    color: #c5d8ff;
-    border-top: 1px solid #000;
+	position: relative;
+	padding: 12px 0;
+	font-size: 20px;
+	color: #c5d8ff;
+	border-top: 1px solid #000;
 }
 .trend .trend-list .trend-list-item .name {
-    width: 80%;
-    margin-bottom: 10px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+	width: 80%;
+	margin-bottom: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 .trend .trend-list .trend-list-item .num {
-    margin-right: 10px;
+	margin-right: 10px;
 }
 .trend .trend-list .trend-list-item .tip {
-    display: inline-block;
-    padding: 0 10px;
-    border-radius: 10px;
+	display: inline-block;
+	padding: 0 10px;
+	border-radius: 10px;
 }
 .trend .trend-list .trend-list-item .iconfont {
-    position: absolute;
-    top: 10px;
-    right: 0;
-    width: 30px;
-    height: 30px;
-    font-size: 30px;
-    color: #f90751;
+	position: absolute;
+	top: 10px;
+	right: 0;
+	width: 30px;
+	height: 30px;
+	font-size: 30px;
+	color: #f90751;
 }
 
 /* 监控页面 */
 
 .monitor .main .search-box .search-input {
-    float: left;
-    -webkit-appearance: none;
-    width: 300px;
-    height: 40px;
-    line-height: 40px;
-    padding: 10px 10px 10px 0;
-    background: #233653;
-    font-size: 14px;
-    text-indent: 12px;
-    vertical-align: top;
-    border: 0;
-    color: #4c6597;
+	float: left;
+	-webkit-appearance: none;
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	padding: 10px 10px 10px 0;
+	background: #233653;
+	font-size: 14px;
+	text-indent: 12px;
+	vertical-align: top;
+	border: 0;
+	color: #4c6597;
 }
-.monitor .main .search-box .search-input:active,
-.monitor .main .search-box .search-input:focus {
-    border: none;
-    outline: 0
+.monitor .main .search-box .search-input:active, .monitor .main .search-box .search-input:focus {
+	border: none;
+	outline: 0
 }
 .monitor .main .search-box .btn-search {
-    float: left;
-    width: 40px;
-    height: 40px;
-    padding: 2px;
-    vertical-align: top;
-    background: #233653
+	float: left;
+	width: 40px;
+	height: 40px;
+	padding: 2px;
+	vertical-align: top;
+	background: #233653
 }
 .monitor .main .search-box .btn-search .icon-search {
-    font-size: 26px;
-    color: #fff;
+	font-size: 26px;
+	color: #fff;
 }
 .monitor .main .btn-add-monitor {
-    float: right;
-    padding: 8px 15px;
-    color: #22c9df;
-    border: 1px solid #22c9df;
-    border-radius: 10px;
-    cursor: pointer;
+	float: right;
+	padding: 8px 15px;
+	color: #22c9df;
+	border: 1px solid #22c9df;
+	border-radius: 10px;
+	cursor: pointer;
 }
 .monitor .main .btn-add-monitor:hover {
-    color: #fff;
-    border-color: #fff;
+	color: #fff;
+	border-color: #fff;
 }
 
 /*  表格容器 */
 
 .main .main-table-item:not(:last-child) {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 .table-wrapper {
-    min-height: 200px;
-    background: #1e2e46;
+	min-height: 200px;
+	background: #1e2e46;
 }
 
 /* 图标容器 */
 
 .chart-wrapper {
-    min-height: 550px;
-    background: #1e2e46;
+	min-height: 550px;
+	background: #1e2e46;
 }
 
 /* 企业分布 */
 
 .location .main .search-list-item {
-    float: left;
-    margin-right: 15px;
+	float: left;
+	margin-right: 15px;
 }
 .location .main .select-btn {
-    padding: 3px 10px;
-    border: 1px solid #fff;
-    border-radius: 8px;
-    color: #fff;
+	padding: 3px 10px;
+	border: 1px solid #fff;
+	border-radius: 8px;
+	color: #fff;
 }
 .location .main .select-btn.active {
-    border: 1px solid #22c0d6;
-    color: #22c0d6;
+	border: 1px solid #22c0d6;
+	color: #22c0d6;
 }
 .location .main .area-wrapper {
-    min-height: 200px;
+	min-height: 200px;
 }
 .location .main .area-wrapper .area-head {
-    position: relative;
-    height: 50px;
-    padding-left: 20px;
-    line-height: 50px;
-    font-size: 16px;
-    color: #fff;
-    background: #1e2e46;
+	position: relative;
+	height: 50px;
+	padding-left: 20px;
+	line-height: 50px;
+	font-size: 16px;
+	color: #fff;
+	background: #1e2e46;
 }
 .location .main .area-wrapper .area-head .more {
-    position: absolute;
-    top: 0;
-    right: 10px;
-    color: #22c0d6;
-    cursor: pointer
+	position: absolute;
+	top: 0;
+	right: 10px;
+	color: #22c0d6;
+	cursor: pointer
 }
 .location .main .area-wrapper .area-head .more:hover {
-    color: #fff
+	color: #fff
 }
 .location .main .area-wrapper .area-head .count {
-    margin-left: 10px;
+	margin-left: 10px;
 }
 .location .main .area-wrapper .area-body {
-    padding: 20px;
-    background: #1e2e46;
+	padding: 20px;
+	background: #1e2e46;
 }
 .location .main .area-wrapper .area-body .company-list {
-    line-height: 40px;
+	line-height: 40px;
 }
 .location .main .area-wrapper .area-body .company-list .company-list-item {
-    float: left;
-    margin-right: 15px;
-    color: #fff;
+	float: left;
+	margin-right: 15px;
+	color: #fff;
 }
 .location .main .area-wrapper .area-body .company-list .company-list-item .company-name {
-    color: #c5d8ff;
+	color: #c5d8ff;
 }
 .location .main .area-wrapper .area-body .company-list .company-list-item .company-state {
-    margin-left: 10px;
-    padding: 3px 10px;
-    border-radius: 8px;
+	margin-left: 10px;
+	padding: 3px 10px;
+	border-radius: 8px;
 }
 
 /* tab */
-.tabs>div{
-    display: none;
-    clear: both;
+
+.tabs>div {
+	display: none;
+	clear: both;
 }
-.tabs .horizontal{
+.tabs .horizontal {
 	position: relative;
-    margin: 0px;
+	margin: 0px;
 	padding: 0px;
 	height: 50px;
 	background: #1e2e46;
 }
-.tabs .horizontal li{
-    float: left;
-    list-style: none;
+.tabs .horizontal li {
+	float: left;
+	list-style: none;
 	height: 50px;
 	padding: 0 10px;
-    line-height: 50px;
-    text-align: center;
-    cursor: pointer;
-    font-size: 16px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 16px;
 }
-.tabs .horizontal li:not(:first-child){
-    margin-left: 15px;
+.tabs .horizontal li:not(:first-child) {
+	margin-left: 15px;
 }
-.tabs .horizontal li.selectActive{
-    color: white;
+.tabs .horizontal li.selectActive {
+	color: white;
 }
-
 
 /* 舆情管理 */
-.left-wrapper{
-	width:70%;
+
+.sentiment .left-wrapper {
+	width: 70%;
 }
-.right-wrapper{
-	width:30%;
+.sentiment .right-wrapper {
+	width: 30%;
 	background: #1e2e46
 }
-.left-wrapper .list-warpper{
+.sentiment .left-wrapper .list-warpper {
 	padding: 0 10px 10px 10px;
 	background: #1e2e46;
 }
-.left-wrapper .list-warpper .list-item{
-	padding:10px;
-	background:#243650;
-	color:#fff
+.sentiment .left-wrapper .list-warpper .list-item {
+	padding: 10px;
+	background: #243650;
+	color: #fff
 }
-.left-wrapper .list-warpper .list-item .title{
-	margin-bottom:10px;
+.sentiment .left-wrapper .list-warpper .list-item .title {
+	margin-bottom: 10px;
 }
-.left-wrapper .list-warpper .list-item:not(:last-child){
-	margin-bottom:15px
+.sentiment .left-wrapper .list-warpper .list-item:not(:last-child) {
+	margin-bottom: 15px
 }
-.left-wrapper .list-warpper .list-item .addr-label{
-	color:#434c6a
+.sentiment .left-wrapper .list-warpper .list-item .addr-label {
+	color: #434c6a
 }
 
 /* 分页 */
-.simple-pagination{
+
+.simple-pagination {
 	background: #1e2e46;
 }
-.light-theme a,.light-theme span{
-	border:none;
+.light-theme a, .light-theme span {
+	border: none;
 	background: transparent;
-	color:#fff;
+	color: #fff;
 }
-.light-theme .current{
+.light-theme .current {
 	background: transparent;
-    color: #FFF;
+	color: #FFF;
 }
 .light-theme a:hover {
 	text-decoration: none;
-	color:#1e2e46;
-    background: #fff;
+	color: #1e2e46;
+	background: #fff;
 }
+
+/*企业列表*/
+
+.company-list-top {
+	height: 50px;
+	line-height: 50px;
+	background: #1e2e46;
+}
+.company-list-top .text{
+	color:#fff
+}
+.company-list-top .simple-pagination {
+	margin-top: 12px;
+}
+.company-item:not(:last-child){
+	margin-bottom: 15px;
+}
+.company-item .left-wrapper{
+	margin-right: 220px;
+}
+.company-item .left-wrapper dd{
+	position: relative;
+	height: 65px;
+	line-height: 65px;
+	background: #1e2e46;
+}
+.company-item .left-wrapper .top,
+.company-item .left-wrapper .middle{
+	padding-left: 10px;
+}
+.company-item .left-wrapper .company-name {
+	font-size: 18px;
+	color: #c5d8ff;
+}
+.company-item .left-wrapper .company-state{
+	margin-left: 10px;
+	padding: 3px 10px;
+	border-radius: 8px;
+	color:#fff;
+}
+
+.company-item .left-wrapper .middle .target-item{
+	float: left;
+	width: 200px;
+	margin-right: 20px;
+	color: #c5d8ff
+}
+
+.company-item .left-wrapper .middle .target-item .score-color{
+	color:#f46792
+}
+
+.company-item .right-wrapper{
+	float: right;
+	width: 220px;
+	height: 195px;
+	padding: 15px;
+	background: #1e2e46;
+}
+.company-item .right-wrapper .score-wrapper{
+	height: 100%;
+	border-width:2px;
+	border-style: solid;
+	border-radius: 0 0 15px 15px;
+	text-align: center;
+	color:#fff
+}
+.company-item .right-wrapper .score-wrapper .score-value{
+	margin-top: 20px;
+	font-size: 48px;
+}
+.company-item .right-wrapper .score-wrapper .desc{
+	font-size: 20px;
+}
+
