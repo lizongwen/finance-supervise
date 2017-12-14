@@ -22,6 +22,17 @@
 .w-pct-50 {
 	width: 50%
 }
+
+.bg_level_1 {background-color: #2fa0ff; }
+.bg_level_2 {background-color: #19bc6a; }
+.bg_level_3 {background-color: #ffb303; }
+.bg_level_4 {background-color: #fa7b14; }
+.bg_level_5 {background-color: #e2101f; }
+.bd_level_1 {border-color: #2fa0ff; }
+.bd_level_2 {border-color: #19bc6a; }
+.bd_level_3 {border-color: #ffb303; }
+.bd_level_4 {border-color: #fa7b14; }
+.bd_level_5 {border-color: #e2101f; }
 .skin-bg-red {
 	background: #f90751;
 }
@@ -189,6 +200,7 @@ body {
 
 .main {
 	width: 100%;
+	min-height: calc(100% - 70px);
 }
 .main-panel {
 	height: 720px;
