@@ -559,21 +559,29 @@ body {
 .company-list-top .simple-pagination {
 	margin-top: 12px;
 }
+.company-item{
+	background: #1e2e46;
+}
 .company-item:not(:last-child){
 	margin-bottom: 15px;
 }
 .company-item .left-wrapper{
-	margin-right: 220px;
+	margin-right: 175px;
 }
 .company-item .left-wrapper dd{
 	position: relative;
-	height: 65px;
-	line-height: 65px;
 	background: #1e2e46;
 }
-.company-item .left-wrapper .top,
+.company-item .left-wrapper .top{
+	padding: 10px;
+}
 .company-item .left-wrapper .middle{
 	padding-left: 10px;
+}
+.company-item .left-wrapper .bottom,
+.company-item .left-wrapper .middle{
+	height: 65px;
+	line-height: 65px;
 }
 .company-item .left-wrapper .company-name {
 	font-size: 18px;
@@ -599,13 +607,13 @@ body {
 
 .company-item .right-wrapper{
 	float: right;
-	width: 220px;
-	height: 195px;
+	width: 175px;
+	min-height: 175px;
 	padding: 15px;
 	background: #1e2e46;
 }
 .company-item .right-wrapper .score-wrapper{
-	height: 100%;
+	height: 145px;
 	border-width:2px;
 	border-style: solid;
 	border-radius: 0 0 15px 15px;
@@ -628,4 +636,30 @@ body {
 .company-detail .tabs>div .content{
 	min-height: 280px;
 	background: #243650;
+}
+.company-desc{
+	margin-top: 10px;
+	line-height: 24px;
+	color:#fff;
+}
+
+/*企业关键字*/
+.keyword-wrapper{
+	height: 100%;
+	padding-left:15px;
+	color:#fff;
+}
+.keyword-wrapper .keyword-item{
+	float: left;
+	height: 100%;
+	line-height: 65px;
+}
+.keyword-wrapper .keyword-item:not(:last-child){
+	margin-right: 15px;
+}
+
+.keyword-wrapper .keyword-item .text{
+	padding: 4px 8px;
+	border-radius: 8px;
+	background: #5BC0DE;
 }
