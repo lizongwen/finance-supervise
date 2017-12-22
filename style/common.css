@@ -397,6 +397,7 @@ body {
 .table-wrapper {
 	min-height: 200px;
 	background: #1e2e46;
+	color: #fff;
 }
 
 /* 图标容器 */
@@ -636,6 +637,7 @@ body {
 .company-detail .tabs>div .content{
 	min-height: 280px;
 	background: #243650;
+	color:#fff;
 }
 .company-desc{
 	margin-top: 10px;
@@ -662,4 +664,12 @@ body {
 	padding: 4px 8px;
 	border-radius: 8px;
 	background: #5BC0DE;
+}
+
+/*表格*/
+.table{
+	width: 100%;
+}
+.table th,.table td{
+	padding: 5px 8px;
 }
