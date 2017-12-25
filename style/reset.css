@@ -126,11 +126,11 @@ table {
 }
 th {
 	font-weight: bold;
-	vertical-align: bottom;
+	vertical-align: middle;
 }
 td {
 	font-weight: normal;
-	vertical-align: top;
+	vertical-align: middle;
 }
 hr {
 	display: block;
