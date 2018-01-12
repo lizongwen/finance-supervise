@@ -160,6 +160,11 @@ body {
 	font-size: 14px;
 	color:#fff;
 }
+@media only screen and (max-width: 1500px) {
+	.head .search-box .search-input-wrapper .search-result{
+		width: calc(100% + 80px);
+	}
+}
 .head .search-box .search-input-wrapper .search-result>li{
 	margin:10px 20px;
 	
@@ -171,6 +176,9 @@ body {
 }
 .head .search-box .search-input-wrapper .search-result>li .search-result-item-fl>p{
 	margin-bottom: 5px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 .head .search-box .search-input-wrapper .search-result>li .search-result-item-fr{
 	width: 10%;
