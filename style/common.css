@@ -132,7 +132,7 @@ body {
 .head .search-box .search-input-wrapper{
 	position: relative;
 	float: left;
-	width: calc(100% - 120px);
+	width: calc(100% - 80px);
 }
 .head .search-box .search-input {
 	-webkit-appearance: none;
