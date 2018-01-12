@@ -60,7 +60,7 @@
 	top: 100%;
 	height: 1px;
 	width: 100%;
-	background: #000;
+	background: #1B2637;
 }
 .panel-head {
 	position: relative;
@@ -86,7 +86,7 @@
 body {
 	padding: 0 35px;
 	background: #1b2636;
-	color: #454d6c
+	color: #8089aa
 }
 .head {
 	height: 70px;
@@ -129,9 +129,14 @@ body {
 	margin-top: 16px;
 	font-size: 0;
 }
+.head .search-box .search-input-wrapper{
+	position: relative;
+	float: left;
+	width: calc(100% - 120px);
+}
 .head .search-box .search-input {
 	-webkit-appearance: none;
-	width: calc(100% - 120px);
+	width: calc(100% - 40px);
 	height: 40px;
 	line-height: 40px;
 	padding: 10px 10px 10px 0;
@@ -145,6 +150,32 @@ body {
 .head .search-box .search-input:active, .head .search-box .search-input:focus {
 	border: none;
 	outline: 0
+}
+.head .search-box .search-input-wrapper .search-result{
+	z-index: 1;
+	position: absolute;
+	top: 41px;
+	width: 100%;
+	background: #233654;
+	font-size: 14px;
+	color:#fff;
+}
+.head .search-box .search-input-wrapper .search-result>li{
+	height: 80px;
+	margin:10px 20px;
+	
+}
+.head .search-box .search-input-wrapper .search-result>li .search-result-item-fl{
+	width: 90%;
+	padding: 8px 10px;
+	background: #1E2E47;
+}
+.head .search-box .search-input-wrapper .search-result>li .search-result-item-fl>p{
+	margin-bottom: 5px;
+}
+.head .search-box .search-input-wrapper .search-result>li .search-result-item-fr{
+	width: 10%;
+	text-align: center;
 }
 .head .search-box .btn-search {
 	display: inline-block;
@@ -164,8 +195,8 @@ body {
 	top: 0;
 	right: 0;
 	display: inline-block;
-	width: 70px;
-	margin-left: 10px;
+	width: 80px;
+	padding-left: 10px;
 	font-size: 14px;
 	cursor: pointer;
 }
@@ -174,6 +205,13 @@ body {
 	height: 100%;
 	line-height: 40px;
 	color: #26c9dc
+}
+.head .search-box .search-down .search-down-item:not(:first-child){
+	padding-left: 10px
+	background: #1e2e46;
+}
+.head .search-box .search-down.show{
+	background: #1e2e46;
 }
 .head .search-box .search-down .search-down-item:hover{
 	color:#fff;
@@ -229,15 +267,15 @@ body {
 	color: #fff
 }
 .panel .panel-left .data-view .data-view-item:nth-of-type(1) {
-	background: #3780ea url(../img/company.png) no-repeat center right/auto 120%;
+	background: #3780ea url(../../images/hg/company.png) no-repeat center right/auto 120%;
 	background-position: 104% -40%;
 }
 .panel .panel-left .data-view .data-view-item:nth-of-type(2) {
-	background: #fda744 url(../img/eye.png) no-repeat center right/auto 120%;
+	background: #fda744 url(../../images/hg/eye.png) no-repeat center right/auto 120%;
 	background-position: 110% -40%;
 }
 .panel .panel-left .data-view .data-view-item:nth-of-type(3) {
-	background: #ea366d url(../img/note.png) no-repeat center right/auto 120%;
+	background: #ea366d url(../../images/hg/note.png) no-repeat center right/auto 120%;
 	background-position: 110% -40%;
 }
 .panel .panel-left .data-view .data-view-item .count {
@@ -309,7 +347,7 @@ body {
 }
 .trend .trend-top .title {
 	margin-left: 10px;
-	font-size: 28px;
+	font-size: 24px;
 	color: #fff;
 }
 .trend .trend-list {
@@ -321,7 +359,7 @@ body {
 	padding: 12px 0;
 	font-size: 20px;
 	color: #c5d8ff;
-	border-top: 1px solid #000;
+	border-top: 1px solid #1B2637;
 }
 .trend .trend-list .trend-list-item .name {
 	width: 80%;
@@ -475,6 +513,28 @@ body {
 	border-radius: 8px;
 }
 
+
+/*企业分布-公司详情*/
+.company-detail .news-count{
+	display: inline-block;
+	padding: 8px 15px;
+	background: #243650;
+	color: #fff;
+}
+.company-detail .news-item{
+	padding: 15px;
+	margin-bottom: 10px;
+	background: #243650;
+	color: #fff;
+}
+.company-detail .news-item p{
+	line-height: 1.7;
+}
+
+.company-detail .tabs > div .content .item-title{
+   padding: 8px 15px;
+	font-size: 24px;
+}
 /* tab */
 
 .tabs>div {
@@ -530,7 +590,7 @@ body {
 	margin-bottom: 15px
 }
 .sentiment .left-wrapper .list-warpper .list-item .addr-label {
-	color: #434c6a
+	color: #fff
 }
 
 /* 分页 */
@@ -567,6 +627,7 @@ body {
 	margin-top: 12px;
 }
 .company-item{
+	position: relative;
 	background: #1e2e46;
 }
 .company-item:not(:last-child){
@@ -584,12 +645,13 @@ body {
 }
 .company-item .left-wrapper .middle{
 	padding-left: 10px;
-}
-.company-item .left-wrapper .bottom,
-.company-item .left-wrapper .middle{
-	height: 65px;
+	min-height: 65px;
 	line-height: 65px;
 }
+.company-item .left-wrapper .bottom{
+	height: 65px;
+}
+
 .company-item .left-wrapper .company-name {
 	font-size: 18px;
 	color: #c5d8ff;
@@ -613,7 +675,9 @@ body {
 }
 
 .company-item .right-wrapper{
-	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
 	width: 175px;
 	min-height: 175px;
 	padding: 15px;
@@ -728,3 +792,4 @@ body {
 .btn-default{
 	border-color: #1E2E46;
 }
+
